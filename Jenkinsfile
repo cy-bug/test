@@ -6,7 +6,7 @@ pipeline {
   stages {
     stage('env') {
       steps {
-        sh "env"
+        sh 'env > text.txt'
       }
     }
   }

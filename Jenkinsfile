@@ -1,5 +1,5 @@
 pipeline {
-  agent {label node-01}
+  agent {label 'node-01'}
   environment {
     HARBOR = credentials('harbor-account')
   }
